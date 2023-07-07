@@ -1,0 +1,63 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-1: #47E1EA;
+    --color-2: #3FB8CD;
+    --bg-color: #E4E5E7;
+    --color-shadow: rgba(0, 0, 0, 0.25);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.title {
+    color: var(--color-2);
+}
+
+.help-pass {
+    color: var(--color-2);
+    font-size: .8rem;
+}
+
+p {
+    text-align: center;
+}
+
+.icon {
+    font-size: 1.3rem;
+    color: var(--color-2);
+}
+
+.form {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.alt {
+    width: 100%;
+}
+
+.google {
+    margin-right: 26%;
+    margin-top: 1px;
+}
+
+.facebook {
+    font-size: 1.4rem;
+    margin-right: 24%;
+    margin-top: 1px;
+}
+
+.btn-login {
+    background-color: var(--color-2);
+    box-shadow: 0 3px 3px var(--color-shadow);
+}
+
+@media(min-width: 560px) {
+    .form {
+        width: 420px;
+    }
+}
